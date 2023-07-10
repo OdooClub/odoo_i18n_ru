@@ -125,7 +125,7 @@ msgstr ""
 #: code:addons/website_slides/static/src/js/slides_slide_archive.js:0
 #, python-format
 msgid "(empty)"
-msgstr ""
+msgstr "(пусто)"
 
 #. module: website_slides
 #. odoo-javascript
