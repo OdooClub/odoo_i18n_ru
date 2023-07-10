@@ -42,14 +42,18 @@ msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-23 08:23+0000\n"
-"PO-Revision-Date: 2022-09-22 05:44+0000\n"
-"Last-Translator: Elena Da, 2023\n"
-"Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
+"PO-Revision-Date: 2023-07-11 10:32+0000\n"
+"Last-Translator: Weblate Admin <weblate.admin@odooclub.ru>\n"
+"Language-Team: Russian <http://weblate.odooclub.ru/projects/"
+"bazovye-moduli-odoo-16/base/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: ru\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
+"n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_at
@@ -9656,7 +9660,7 @@ msgstr "Код страны"
 #: model_terms:ir.ui.view,arch_db:base.view_country_group_form
 #: model_terms:ir.ui.view,arch_db:base.view_country_group_tree
 msgid "Country Group"
-msgstr "Группы стран"
+msgstr "Группа стран"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country__country_group_ids
@@ -11419,7 +11423,7 @@ msgstr ""
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.enable_profiling_wizard
 msgid "Enable profiling"
-msgstr ""
+msgstr "Включить профилирование"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_enable_profiling_wizard__duration
@@ -11956,7 +11960,7 @@ msgstr "Область"
 #. module: base
 #: model:ir.actions.act_window,name:base.action_country_state
 msgid "Fed. States"
-msgstr "Регионы"
+msgstr "Федеративные Штаты"
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_country_state
@@ -12410,7 +12414,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country__image_url
 msgid "Flag"
-msgstr "Флаг"
+msgstr "Пожаловаться"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_lang__flag_image_url
@@ -13191,7 +13195,7 @@ msgstr "Расположение заголовка"
 #. module: base
 #: model:ir.model.fields,help:base.field_res_company__company_details
 msgid "Header text displayed at the top of all reports."
-msgstr ""
+msgstr "Текст заголовка отображается в верхней части всех отчетов."
 
 #. module: base
 #: model:res.partner.industry,name:base.res_partner_industry_Q
@@ -21431,7 +21435,7 @@ msgstr "Разделитель, чтобы отделить адрес от От
 #: model_terms:ir.ui.view,arch_db:base.view_sequence_search
 #: model_terms:ir.ui.view,arch_db:base.view_view_tree
 msgid "Sequence"
-msgstr "Нумерация"
+msgstr "Порядок"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_sequence__code
@@ -22751,6 +22755,8 @@ msgid ""
 "country format. You can use '/' to indicate that the partner is not subject "
 "to tax."
 msgstr ""
+"ИНН. Значения здесь будут проверены на основе формата страны. Вы можете "
+"использовать «/», чтобы указать, что партнер не облагается налогом."
 
 #. module: base
 #: model:ir.model.constraint,message:base.constraint_res_lang_url_code_uniq
@@ -24984,7 +24990,7 @@ msgstr "Вьетнам - Бухгалтерский учет"
 #: model:ir.model.fields,field_description:base.field_reset_view_arch_wizard__view_id
 #: model_terms:ir.ui.view,arch_db:base.view_view_search
 msgid "View"
-msgstr "Осмотр"
+msgstr "Просмотр"
 
 #. module: base
 #. odoo-python
@@ -25062,7 +25068,7 @@ msgstr "Посмотреть:%s "
 #: model_terms:ir.ui.view,arch_db:base.view_view_tree
 #: model_terms:ir.ui.view,arch_db:base.view_window_action_form
 msgid "Views"
-msgstr "Представления"
+msgstr "Просмотры"
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_ui_view
@@ -26280,7 +26286,7 @@ msgstr ""
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, python-format
 msgid "minute"
-msgstr ""
+msgstr "минута"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.demo_failures_dialog
