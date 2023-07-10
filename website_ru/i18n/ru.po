@@ -11625,3 +11625,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.s_google_map_options
 msgid "⌙ Style"
 msgstr ""
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_payment_term.py:0
+#, python-format
+msgid " (<b>%(amount)s</b> if paid before <b>%(date)s</b>)"
+msgstr ""
