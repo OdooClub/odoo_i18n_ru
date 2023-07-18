@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-15 12:45+0000\n"
-"PO-Revision-Date: 2023-07-14 02:27+0000\n"
+"PO-Revision-Date: 2023-07-19 11:27+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@odooclub.ru>\n"
 "Language-Team: Russian <http://weblate.odooclub.ru/projects/"
 "bazovye-moduli-odoo-16/website-forum/ru/>\n"
@@ -312,8 +312,8 @@ msgid ""
 "<b>Answers should not add or expand questions</b>. Instead, either edit the "
 "question or add a comment."
 msgstr ""
-"<b>Ответы не должны добавлять или расширять вопросы</b>. Вместо этого либо "
-"отредактируйте вопрос, либо добавьте комментарий."
+"<b>Ответы не должны добавлять или расширять вопросы</b>. Вместо этого "
+"измените вопрос или добавьте комментарий к вопросу."
 
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
@@ -389,8 +389,8 @@ msgid ""
 "You can search questions by their title or tags. It’s also OK to answer your"
 " own question."
 msgstr ""
-"<b>Прежде чем задать вопрос, обязательно выполните поиск по существующим "
-"вопросам.</b> Вы можете искать вопросы по их названию или тегам. Это часто "
+"<b>Прежде чем задать вопрос, обязательно выполните поиск по похожему "
+"вопросу.</b> Вы можете искать вопросы по их названию или тегам. Это часто "
 "помогает получить ответ на ваш вопрос."
 
 #. module: website_forum
@@ -1800,12 +1800,11 @@ msgid ""
 "explains reputation point requirements for each type of moderation task."
 msgstr ""
 "Например, если вы зададите интересный вопрос или дадите полезный ответ, ваш "
-"вклад будет одобрен. С другой стороны, если ответ вводит в заблуждение - он "
-"получит негативные оценки. Каждый голос «за» приносит 10 баллов, каждый "
-"голос «против» вычитает 2 балла. Существует ограничение в 200 баллов, "
-"которые можно накопить за вопрос или ответ в день. В таблице, приведенной в "
-"конце, поясняются требования к очкам репутации для каждого типа задач "
-"модерации."
+"вклад будет одобрен. С другой стороны, если ответ вводит в заблуждение - за "
+"него проголосуют. Каждый голос «за» приносит 10 баллов, каждый голос «против»"
+" вычитает 2 балла. Существует ограничение в 200 баллов, которые можно "
+"накопить за вопрос или ответ в день. В таблице, приведенной в конце, "
+"поясняются требования к очкам репутации для каждого типа задач модерации."
 
 #. module: website_forum
 #. odoo-python
@@ -2054,8 +2053,9 @@ msgid ""
 msgstr ""
 "Если вы подходите под один из этих примеров или если ваша мотивация задать "
 "вопрос такова: «Я хотел бы принять участие в обсуждении ______», то вам "
-"следует задавать вопрос не здесь. Однако, если ваша мотивация такова: «Я "
-"хочу, чтобы другие объяснили мне ______», то, вероятно, у вас все в порядке."
+"следует задавать вопрос не здесь, а в наших списках рассылки. Однако, если "
+"ваша мотивация такова: «Я хочу, чтобы другие объяснили мне ______», то, "
+"вероятно, у вас все в порядке."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.mark_as_offensive
@@ -2337,7 +2337,7 @@ msgstr "Кроме того:"
 #. module: website_forum
 #: model:ir.model.fields.selection,name:website_forum.selection__forum_forum__default_order__vote_count_desc
 msgid "Most Voted"
-msgstr "Лучшие"
+msgstr "Большинство оценок"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_index
@@ -2936,7 +2936,7 @@ msgstr "Отклонить"
 #. module: website_forum
 #: model_terms:forum.forum,welcome_message:website_forum.forum_help
 msgid "Register"
-msgstr "Зарегистрировать"
+msgstr "Зарегистрироваться"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__relevancy
@@ -3329,11 +3329,10 @@ msgid ""
 "This community is for professionals and enthusiasts of our products and services.\n"
 "                                        <br>Share and discuss the best content and new marketing ideas, build your professional profile and become a better marketer together."
 msgstr ""
-"Это сообщество предназначено для профессионалов и любителей наших продуктов "
+"Это сообщество предназначена для профессионалов и энтузиастов наших товаров "
 "и услуг.\n"
-"                                         <br>Делитесь и обсуждайте лучший "
-"контент и новые маркетинговые идеи, создайте свой профессиональный профиль и "
-"вместе станьте лучшим маркетологом."
+"<br> Поделитесь и обсудите лучший содержание и новые маркетинговые идеи, "
+"постройте свой профессиональный профиль и станьте лучшим маркетологом вместе."
 
 #. module: website_forum
 #: model:forum.forum,description:website_forum.forum_help
@@ -3705,7 +3704,7 @@ msgid ""
 "rough measure of the community trust to him/her. Various moderation tasks "
 "are gradually assigned to the users based on those points."
 msgstr ""
-"Когда вопрос или ответ получили оценку, пользователь, разместивший их, "
+"Когда за вопрос или ответ проголосовали, пользователь, разместивший их, "
 "получит некоторые баллы, которые называются «баллами кармы». Эти баллы "
 "служат приблизительным показателем доверия к нему со стороны сообщества. На "
 "основе этих баллов пользователям постепенно становятся доступны различные "
@@ -3759,9 +3758,9 @@ msgid ""
 " site and push other questions off the front page."
 msgstr ""
 "Вы должны задавать только практические вопросы, на которые можно ответить, "
-"основанные на реальных проблемах, с которыми вы сталкиваетесь. Дискуссионные "
-"вопросы уменьшают полезность этого форума и вытесняют другие вопросы с "
-"первой страницы."
+"основанные на реальных проблемах, с которыми вы сталкиваетесь. Болтливые "
+"открытые вопросы уменьшают полезность этого сайта и вытесняют другие вопросы "
+"с первой страницы."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_index
