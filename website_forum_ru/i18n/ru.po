@@ -19,6 +19,7 @@
 # Сергей Шебанин <sergey@shebanin.ru>, 2022
 # Alena Vlasova, 2022
 # ILMIR <karamov@it-projects.info>, 2022
+# Roman Alexandrov <r.alexandrov@udelta.ru>, 2023
 # 
 msgid ""
 msgstr ""
