@@ -42,7 +42,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-23 08:23+0000\n"
-"PO-Revision-Date: 2023-07-11 10:32+0000\n"
+"PO-Revision-Date: 2023-07-19 11:27+0000\n"
 "Last-Translator: Weblate Admin <weblate.admin@odooclub.ru>\n"
 "Language-Team: Russian <http://weblate.odooclub.ru/projects/"
 "bazovye-moduli-odoo-16/base/ru/>\n"
@@ -4986,7 +4986,7 @@ msgid ""
 " This is the base module to manage chart of accounting and localization for "
 "Hong Kong "
 msgstr ""
-"Это базовый модуль для управления планом счетов и локализации для Гонконга"
+" Это базовый модуль для управления планом счетов и локализации для Гонконга "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_pk
@@ -5297,7 +5297,7 @@ msgstr "%M — Минуты [00—59].\""
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.res_lang_form
 msgid "%S - Seconds [00,61].\""
-msgstr " %s  — Секунды [00—61].\""
+msgstr "%S - Секунды [00,61].\""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.res_lang_form
